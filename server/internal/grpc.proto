@@ -1,0 +1,14 @@
+syntax="proto3";
+package server;
+
+service GRPCTest {
+  rpc GetMessage(MessageInit) returns (MessageReply) {}
+}
+
+message MessageInit {
+  string body = 1;
+}
+
+message MessageReply {
+  string body = 1;
+}
