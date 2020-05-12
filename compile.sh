@@ -1,1 +1,1 @@
-protoc -I server/ server/internal/grpc.proto --go_out=plugins=grpc:server
+protoc -I pkg/ server/internal/grpc.proto --go_out=plugins=grpc:pkg
