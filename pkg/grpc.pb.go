@@ -4,7 +4,7 @@
 // 	protoc        v3.11.4
 // source: internal/grpc.proto
 
-package server
+package pkg
 
 import (
 	context "context"
